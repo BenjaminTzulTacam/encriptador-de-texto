@@ -160,6 +160,16 @@ html {
         flex-direction: row;
         justify-content:space-evenly;
     }
+    .cabecera {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .cabecera__logo {
+        width: 16%;
+        min-width: 15%;
+    }
+
     .textarea {
         width: 90%;
         padding-left: 10rem;
