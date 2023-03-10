@@ -22,12 +22,11 @@ html {
 .cabecera {
     text-align: center;
     width: 100%;
-    height: 15rem;
+    height: auto;
 } 
 
 .cabecera__logo {
     width: 35%;
-    padding-top: 2rem;
 }
 
 .container {
@@ -134,4 +133,25 @@ html {
 .pie {
     bottom: 0;
 }
+
+@media screen and (min-width:600px) {
+    .cabecera__logo {
+        width: 30%;
+    }
+    .botones {
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .btn__encriptar {
+        width: 40%;
+    }
+
+    .btn__desencriptar {
+        width: 40%;
+    }
+}
+
 
