@@ -22,7 +22,7 @@ html {
 .cabecera {
     text-align: center;
     width: 100%;
-    height: auto;
+    height: 10opx;
 } 
 
 .cabecera__logo {
@@ -65,7 +65,7 @@ html {
     background-position: center;
     width: 80vw;
     padding: 2rem 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 3rem;
@@ -126,11 +126,12 @@ html {
     justify-content: center;
     align-items: center;
     color: white;
-    height: 10rem;
+    height: 100px;
     background-color: #0a3871;
 }
 
 .pie {
+    width: 100vw;
     bottom: 0;
 }
 
@@ -151,6 +152,47 @@ html {
 
     .btn__desencriptar {
         width: 40%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .container {
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
+    .textarea {
+        width: 90%;
+        padding-left: 10rem;
+    }
+
+    .mensajes {
+        width: 100%;
+        align-self: center;
+    }
+
+    .desencriptador {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .btn__encriptar {
+        width: 45%;
+        font-size: 2rem;
+    }
+
+    .btn__desencriptar {
+        width: 45%;
+        font-size: 2rem;
+    }
+
+    .copiar  {
+        font-size: 2rem;
+    }
+
+    .pie {
+        position: absolute;
+        width: 100vw;
     }
 }
 
