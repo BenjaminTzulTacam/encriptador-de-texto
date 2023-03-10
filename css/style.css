@@ -1,0 +1,137 @@
+/* Modelo de trabajar
+1. posicionamiento
+2. modelo de caja (box model)
+3. tipografia 
+4. visuales
+5. miselaneos (otros) 
+*/
+
+/* Reseteando margenes */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+}
+
+html {
+    font-family: 'Inter';
+    font-size: 62.5%;
+}
+
+.cabecera {
+    text-align: center;
+    width: 100%;
+    height: 15rem;
+} 
+
+.cabecera__logo {
+    width: 35%;
+    padding-top: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textarea {
+    width: 80vw;
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 3rem;
+    border: none;
+    color: #0a3871;
+    text-transform: lowercase;
+}
+
+::placeholder {
+    color: #0a3871;
+}
+.textarea:focus {
+    outline: none;
+}
+
+.regla__parrafo {
+    font-size: 1rem;
+}
+
+.mensajes {
+    background: white;
+    background-image: url("/imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80vw;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 3rem;
+    border: none;
+    border-radius: 2.4rem;;
+    color: #0a3871;
+    text-transform: lowercase;
+}
+
+.mensajes:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.btn__encriptar {
+    margin-bottom: 1rem;
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 2.4rem;
+    color: white;
+    cursor: pointer;
+    height: 6rem;
+    font-size: 3rem;
+}
+
+.btn__desencriptar {
+    margin-bottom: 1rem;
+    border: 1px solid #0a3871;
+    border-radius: 2.4rem;
+    color: #0a3871;
+    cursor: pointer;
+    height: 6rem;
+    font-size: 3rem;
+}
+
+.copiar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    border: 1px solid #0a3871;
+    border-radius: 2.4rem;
+    color: #0a3871;
+    cursor: pointer;
+    height: 6rem;
+    font-size: 3rem;
+}
+
+.pie h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 10rem;
+    background-color: #0a3871;
+}
+
+.pie {
+    bottom: 0;
+}
+
