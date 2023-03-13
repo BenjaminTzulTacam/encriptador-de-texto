@@ -60,7 +60,7 @@ html {
 
 .mensajes {
     background: white;
-    background-image: url("/imagenes/Muñeco.png");
+    background-image: url("../imagenes/Muneco.png");
     background-repeat: no-repeat;
     background-position: center;
     width: 80vw;
